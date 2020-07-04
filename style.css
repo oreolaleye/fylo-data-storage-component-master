@@ -1,7 +1,7 @@
 
 body{
   background-color: hsl(229, 57%, 11%);
-  background-image:url("images/bg-desktop.png"); 
+  background-image:url("bg-desktop.png"); 
   background-repeat: no-repeat;
   height: 700px;
   background-position:bottom left;
@@ -136,7 +136,7 @@ progress::-moz-progress-bar {
 }
   
   @media (max-width: 400px) {
-    body{background-image:url("images/bg-mobile.png"); background-position: top center;}
+    body{background-image:url("bg-mobile.png"); background-position: top center;}
     .logo-bar{ top:135px; bottom:auto; right:auto; left:15px; width:93%;}
     .data-bar{top:150px; bottom:auto; right:auto; left:15px; width:70%; font-size:13px;}
     .data-left{top:80px; bottom:auto;right:auto; left:100px; width:45%; font-size:35px; border-radius:10px;}
